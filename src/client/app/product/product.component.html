@@ -1,0 +1,23 @@
+<div class="ui card">
+  <div class="image">
+    <img [src]="product?.photoUrl">
+  </div>
+  <div class="content">
+    <a class="header">{{product.itemName}}</a>    
+    <div class="description">
+      <span>     
+        <span>Price : {{product.price | currency:'INR'}}</span>
+      </span>
+    </div>
+  </div>  
+  <div class="extra content">
+    <div class="description">
+      <span>Category : {{product.category}}</span>
+    </div>
+    <div class="description">
+      <span>
+        <span>In Stocks : {{product.quantity}}</span>
+      </span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+[
+    {
+        "itemName": "Samsung Galaxy S20",
+        "category": "Mobiles",
+        "price": 25999.00,
+        "quantity": 10,
+        "isStockAvailable":true,
+        "photoUrl": "/images/SamsungGalaxyS20.jpg"
+    },
+    {
+        "itemName": "Nokia One",
+        "category": "Mobiles",
+        "price": 22999.00,
+        "quantity": 5,
+        "isStockAvailable":true,
+        "photoUrl": "/images/Nokia.jpg"
+    },
+    {
+        "itemName": "EPSON Ledger Printer - 4 In 1",
+        "category": "Printers",
+        "price": 29999.00,
+        "quantity": 8,
+        "isStockAvailable":true,
+        "photoUrl": "/images/Printers.jpg"
+    }
+]

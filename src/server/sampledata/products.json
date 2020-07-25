@@ -1,0 +1,82 @@
+[
+    {
+        "itemName": "Redmi Note 8 Pro",
+        "categoory": "Mobiles",
+        "price": 15999.00,
+        "quantity": 10,
+        "isStockAvailable":true,
+        "photoUrl": "/images/RedmiNotePro9.jpg"
+    },
+    {
+        "itemName": "OnePlus 8 Series G",
+        "categoory": "Mobiles",
+        "price": 41999.00,
+        "quantity": 10,
+        "isStockAvailable":true,
+        "photoUrl": "/images/OnePlus8.jpg"
+    },
+    {
+        "itemName": "Xiomi Mi10 Series G",
+        "categoory": "Mobiles",
+        "price": 45999.00,
+        "quantity": 20,
+        "isStockAvailable":true,
+        "photoUrl": "/images/XiomiMI10.jpg"
+    },
+    {
+        "itemName": "Microsoft SurfacePro Intel Core i5 7th Gen",
+        "categoory": "Laptops",
+        "price": 79999.00,
+        "quantity": 15,
+        "isStockAvailable":true,
+        "photoUrl": "/images/SurfacePro7thGen.jpg"
+    },
+    {
+        "itemName": "DELL Inspiron 5000",
+        "categoory": "Laptops",
+        "price": 51999.00,
+        "quantity": 15,
+        "isStockAvailable":true,
+        "photoUrl": "/images/DELLInspiron5000.jpg"
+    },
+    {
+        "itemName": "HP Pavilion x360 Core i5 8th Gen",
+        "categoory": "Laptops",
+        "price": 68999.00,
+        "quantity": 15,
+        "isStockAvailable":true,
+        "photoUrl": "/images/HPPavilionx360.jpg"
+    },
+    {
+        "itemName": "LG Gram 14Z990 2019",
+        "categoory": "Laptops",
+        "price": 88999.00,
+        "quantity": 10,
+        "isStockAvailable":true,
+        "photoUrl": "/images/LGGram14z.jpg"
+    },
+    {
+        "itemName": "Sony Alpha ILCE 6000L 24.3 MP",
+        "categoory": "Camera",
+        "price": 38999.00,
+        "quantity": 10,
+        "isStockAvailable":true,
+        "photoUrl": "/images/LGGrSonyAlphaILCEam14z.jpg"
+    },
+    {
+        "itemName": "Fujifilm X-T100 24.2 MP",
+        "categoory": "Camera",
+        "price": 42999.00,
+        "quantity": 10,
+        "isStockAvailable":true,
+        "photoUrl": "/images/FujiFilmXT100.jpg"
+    },
+    {
+        "itemName": "Panasonic LUMIX G7 16.00 MP 4K",
+        "categoory": "Camera",
+        "price": 45999.00,
+        "quantity": 10,
+        "isStockAvailable":true,
+        "photoUrl": "/images/PanasonicLumix.jpg"
+    }
+]

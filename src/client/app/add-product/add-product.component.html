@@ -1,0 +1,37 @@
+<div class="add-form-container">
+  <div class="ui icon message" *ngIf="newProduct">
+    <i class="notched check green icon"></i>
+    <i class="close icon" (click)="newProduct = null"></i>
+    <div class="content">
+      <div class="header">
+        New Product added!
+      </div>
+      <p>Product Name: {{newProduct.itemName}}</p>
+    </div>
+  </div>
+  <form class="ui big form" #productForm="ngForm" (submit)="onSubmit(productForm)" [class.loading]="loading">
+    <div class="fields">
+      <div class="eight wide field">
+        <label>Product Name</label>
+        <input type="text" placeholder="Product Name" name="itemName" ngModel>
+      </div>
+      <div class="eight wide field">
+        <label>Product Category</label>
+        <input type="text" placeholder="Product Category" name="category" ngModel>
+      </div>
+    </div>
+    <div class="field">
+      <label>Price</label>
+      <input type="number" placeholder="Price" placeholder="#######.##" name="price" ngModel>
+    </div>
+    <div class="field">
+      <label>Quantity</label>
+      <input type="number" maxlength="4" placeholder="####" name="quantity" ngModel>
+    </div>
+    <div class="field">
+      <label>Photo URL</label>
+      <input type="text" placeholder="http://cdn.com/image.jpg" name="photo" ngModel>
+    </div>
+    <button type="submit" class="ui submit large grey button right floated">Submit</button>
+  </form>
+</div>
